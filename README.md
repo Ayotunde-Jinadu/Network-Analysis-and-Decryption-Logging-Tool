@@ -1,20 +1,25 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Network Traffic Analysis & Decryption with Logging Tool</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+
+This project consists of a set of Linux scripts designed for network traffic analysis and decryption. The utility leverages TCPDump to capture TCP traffic and provides automated tools for cyber forensic investigations. The scripts enable users to capture network packets, organize and parse the data, and decrypt the content of the captured traffic for further analysis. This project simplifies the process of extracting meaningful insights from network traffic while showcasing expertise in scripting, forensics, and decryption techniques.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
+- <b>Bash</b> 
+- <b>Python</b>
+- <b>TCPDump</b>
+- <b>Wireshark</b>
+- <b>Tshark</b>
+   
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Operating System: Kali Linux</b> (via VirtualBox on Windows 10 21H2)
+- <b>Network Environment: Local traffic capture from Google searches</b>
+- <b>Development/Testing Tools: Visual Studio Code, VirtualBox</b>
 
 <h2>Program walk-through:</h2>
 
