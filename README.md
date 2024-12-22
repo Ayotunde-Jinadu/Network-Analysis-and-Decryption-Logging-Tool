@@ -17,7 +17,7 @@ This project consists of a set of Linux scripts designed for network traffic ana
    
 <h2>Environments Used </h2>
 
-- <b>Operating System: Kali Linux</b> (via VirtualBox on Windows 10 21H2)
+- <b>Operating System: Kali Linux</b> (via VirtualBox on Windows 11 22H2)
 - <b>Network Environment: Local traffic capture from Google searches</b>
 - <b>Development/Testing Tools: Visual Studio Code, VirtualBox</b>
 
