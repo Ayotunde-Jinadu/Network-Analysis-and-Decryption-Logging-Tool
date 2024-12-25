@@ -24,7 +24,7 @@ This project consists of a set of Linux scripts designed for network traffic ana
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="blob:https://imgur.com/17a318a3-1b67-4ab0-9bad-77a06a7d60dd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
