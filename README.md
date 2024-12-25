@@ -39,12 +39,20 @@ I used Wireshark to open and analyze the captured packets in greater detail, uti
 <img src="https://imgur.com/DTF5YC3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I captured the private key used by the browser during an SSL handshake by setting the SSLKEYLOGFILE environment variable to specify the file path for storing private keys. This allowed the browser to log the keys used in SSL encryption. I then switched the host from google.com to nhs.uk to generate more traffic and encrypted data for capture, providing a richer dataset for analysis. :  <br/>
+<img src="https://imgur.com/xZVSOJg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
