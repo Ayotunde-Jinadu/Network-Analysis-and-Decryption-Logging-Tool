@@ -10,7 +10,6 @@ This project consists of a set of Linux scripts designed for network traffic ana
 <h2>Languages and Utilities Used</h2>
 
 - <b>Bash</b> 
-- <b>Python</b>
 - <b>TCPDump</b>
 - <b>Wireshark</b>
 - <b>Tshark</b>
