@@ -23,16 +23,16 @@ This project consists of a set of Linux scripts designed for network traffic ana
 <h2>Program walk-through:</h2>
 
 <p align="center">
-In this step, I used the tcpdump command to capture and analyze network traffic to and from google.com. By running sudo tcpdump -c 10 -#XXtttt host google.com, I captured 10 packets, ensuring the data was displayed in both hexadecimal and ASCII formats for detailed examination. The use of high-precision timestamps and packet counters provided clear tracking of the captured traffic, offering a structured view of the interactions with google.com.: <br/>
+In this step, I used the tcpdump command to capture and analyze network traffic to and from google.com. By running sudo tcpdump -c 10 -#XXtttt host google.com, I captured 10 packets, ensuring the data was displayed in both hexadecimal and ASCII formats for detailed examination. The use of high-precision timestamps and packet counters provided clear tracking of the captured traffic, offering a structured view of the interactions with google.com. : <br/>
 <img src="https://imgur.com/NIIYMZw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-I used tcpdump to capture traffic to and from google.com and saved it to a file named capture.cpap using the -w option. To automate logging, I created a script watchdog.sh that monitored traffic and managed sequential dump files, with each file limited to 100 bytes in size using the -C 1 flag. The script ensured efficient and organized logging of captured data.:  <br/>
+I used tcpdump to capture traffic to and from google.com and saved it to a file named capture.cpap using the -w option. To automate logging, I created a script watchdog.sh that monitored traffic and managed sequential dump files, with each file limited to 100 bytes in size using the -C 1 flag. The script ensured efficient and organized logging of captured data. :  <br/>
 <img src="https://imgur.com/xrM9S7u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I tested the functionality of watchdog.sh to ensure it effectively captured and logged network traffic as intended. This involved running the script, verifying that sequential dump files were created correctly based on the specified size limit, and confirming the captured data was accurate and complete. : <br/>
+<img src="https://imgur.com/lcp5j95.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
