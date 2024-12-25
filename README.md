@@ -23,7 +23,7 @@ This project consists of a set of Linux scripts designed for network traffic ana
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+In this step, I used the tcpdump command to capture and analyze network traffic to and from google.com. By running sudo tcpdump -c 10 -#XXtttt host google.com, I captured 10 packets, ensuring the data was displayed in both hexadecimal and ASCII formats for detailed examination. The use of high-precision timestamps and packet counters provided clear tracking of the captured traffic, offering a structured view of the interactions with google.com.: <br/>
 <img src="blob:https://imgur.com/17a318a3-1b67-4ab0-9bad-77a06a7d60dd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
