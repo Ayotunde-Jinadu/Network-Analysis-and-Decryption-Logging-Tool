@@ -51,12 +51,8 @@ I used Wireshark to review the captured packets and analyze the decrypted data, 
 <img src="https://imgur.com/EsvGkPU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Observe the decrypted data:  <br/>
+<img src="https://imgur.com/e34VzbD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
